@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Welcome to Hora Future Academy. Discover our programs, school values, and admissions information.">
+  <title>Hora Future Academy | School Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Bright Future Academy home">
+      <span class="brand-mark">HF</span>
+      <span><strong>Hora Future</strong><small>ACADEMY</small></span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav class="nav" id="mainNav" aria-label="Main navigation">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#programs">Programs</a>
+      <a href="#admissions">Admissions</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <p class="eyebrow">LEARN · GROW · LEAD</p>
+        <h1>Building a brighter future through education.</h1>
+        <p class="hero-text">A welcoming learning community where students build knowledge, confidence, and the skills to shape tomorrow.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#admissions">Explore Admissions</a>
+          <a class="button button-outline" href="#about">Discover Our School</a>
+        </div>
+        <div class="hero-note"><span class="dot"></span> A sample website template — replace this text with your school's real information.</div>
+      </div>
+      <div class="hero-card">
+        <div class="illustration" aria-hidden="true">
+          <div class="sun"></div><div class="book book-back"></div><div class="book book-front"></div>
+          <div class="pencil"></div><div class="plant"><i></i><i></i><i></i><b></b></div>
+        </div>
+        <div class="hero-card-copy">
+          <span class="mini-label">OUR PROMISE</span>
+          <h2>Every learner matters.</h2>
+          <p>Curiosity, care, and high expectations guide our learning community.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="stats" aria-label="School highlights">
+      <div><strong>01</strong><span>Student-centred learning</span></div>
+      <div><strong>02</strong><span>Supportive teachers</span></div>
+      <div><strong>03</strong><span>Skills for the future</span></div>
+      <div><strong>04</strong><span>Family partnership</span></div>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="section-heading">
+        <p class="eyebrow">ABOUT OUR SCHOOL</p>
+        <h2>A place to discover your potential.</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-highlight"><span class="quote-mark">“</span><p>Education is more than learning facts. It is about becoming thoughtful, capable, and compassionate.</p><small>OUR LEARNING PHILOSOPHY</small></div>
+        <div class="about-copy">
+          <p>Bright Future Academy is a sample school name for this demo project. Use this section to introduce your school's history, mission, vision, and community.</p>
+          <div class="value-list">
+            <div><span>✓</span><p><strong>Our mission</strong><br>Help every student learn, grow, and achieve their goals.</p></div>
+            <div><span>✓</span><p><strong>Our vision</strong><br>Build a confident generation ready for tomorrow.</p></div>
+            <div><span>✓</span><p><strong>Our values</strong><br>Respect, curiosity, responsibility, and teamwork.</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section programs-section" id="programs">
+      <div class="section-heading centered">
+        <p class="eyebrow">LEARNING PROGRAMS</p>
+        <h2>Learning for every stage.</h2>
+        <p>Replace these sample program cards with the grades and subjects your school offers.</p>
+      </div>
+      <div class="program-grid">
+        <article class="program-card"><span class="program-icon">✦</span><h3>Primary School</h3><p>Build strong foundations in literacy, numeracy, creativity, and collaboration.</p><a href="#contact">Ask about this program →</a></article>
+        <article class="program-card featured"><span class="program-icon">◎</span><h3>Secondary School</h3><p>Develop deeper subject knowledge, independent thinking, and practical skills.</p><a href="#contact">Ask about this program →</a></article>
+        <article class="program-card"><span class="program-icon">⌘</span><h3>ICT & Digital Skills</h3><p>Explore technology, digital literacy, problem-solving, and responsible online habits.</p><a href="#contact">Ask about this program →</a></article>
+      </div>
+    </section>
+
+    <section class="admissions" id="admissions">
+      <div><p class="eyebrow">JOIN OUR COMMUNITY</p><h2>Ready to take the next step?</h2><p>Contact the school to learn about admissions, requirements, and important dates.</p></div>
+      <a class="button button-light" href="#contact">Contact Admissions</a>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="section-heading">
+        <p class="eyebrow">GET IN TOUCH</p>
+        <h2>We would love to hear from you.</h2>
+        <p>Replace the sample details below with your real school contact information.</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-details">
+          <div><span class="contact-icon">⌖</span><p><strong>Address</strong><br>Bule Hora, Oromia, Ethiopia</p></div>
+          <div><span class="contact-icon">☎</span><p><strong>Phone</strong><br>+251 916133630</p></div>
+          <div><span class="contact-icon">✉</span><p><strong>Email</strong><br>salimlemma@gmail.com</p></div>
+          <p class="contact-warning">Demo template: these are placeholders, not real school contact details.</p>
+        </div>
+        <form class="contact-form" id="contactForm">
+          <label for="name">Your name</label><input id="name" name="name" required placeholder="Enter your name">
+          <label for="email">Email address</label><input id="email" name="email" type="email" required placeholder="hora@example.com">
+          <label for="message">Your message</label><textarea id="message" name="message" rows="4" required placeholder="How can we help?"></textarea>
+          <button class="button button-primary" type="submit">Prepare Message</button>
+          <p class="form-note" id="formNote" aria-live="polite">This demo prepares a message; it does not send email to the school.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="brand footer-brand" href="#home"><span class="brand-mark">HF</span><span><strong>Hora Future</strong><small>ACADEMY</small></span></a>
+    <p>Sample school website portfolio project.</p>
+    <p>© <span id="year"></span> Hora Future Academy. Replace with the school's correct details.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
